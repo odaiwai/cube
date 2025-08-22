@@ -1,5 +1,6 @@
 " Cube Language
 " use "set filetype" instead of "setfiletype" to override earlier setting
+
 function! DetectCube()
     " echom 'checking for Cube files'
     let likely = 0
