@@ -1,8 +1,8 @@
 " Vim syntax file
-" Language:	Cube Snytax File
+" Language:	Cube Syntax File
 " Maintainer:	David O'Brien
-" URL:		https://github.com/odaiwai/cube.vim
-" Last Change:  2025...
+" URL:		https://github.com/odaiwai/cube
+" Last Change:  2025/08/22
 
 " Quit when syntax file already loaded
 if exists('b:current_syntax')
@@ -15,7 +15,7 @@ syn case ignore
 syntax match cubeSystemKeyword /\v^RUN.*$/ contains=cubeString
 syntax match cubeSystemKeyword /\v^ENDRUN.*$/
 " syntax region cubeMacroRegio
-	\ start="RUN" end="ENDRUN"
+"	\ start="RUN" end="ENDRUN"
 syntax match cubeScenarioKey /\v\{[A-z0-9_]{-}\}/
 syntax match cubeComment /\v\zs\;.*$\ze/
 
